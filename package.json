@@ -1,6 +1,6 @@
 {
   "name": "@robsongade/webpack-setup-vue",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "core/index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^4.2.1",
+    "dotenv-webpack": "^2.0.0",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
     "sass": "^1.26.10",
