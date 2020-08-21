@@ -8,6 +8,12 @@ module.exports = {
         path:pathResolve('./build/'),
         filename : 'bundle.js'
     },
+    devServer: {
+      contentBase: path.join(__dirname, 'dist'),
+      compress: true,
+      port: 8080,
+      host : '0.0.0.0'
+    },
     plugins : [
       new VueLoaderPlugin(),
       new HtmlWebpackPlugin({
