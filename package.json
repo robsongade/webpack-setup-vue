@@ -1,6 +1,6 @@
 {
   "name": "@robsongade/webpack-setup-vue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "core/index.js",
   "scripts": {
@@ -27,6 +27,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "child_process": "^1.0.2",
     "vue": "^2.6.11"
   }
 }
